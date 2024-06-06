@@ -62,7 +62,7 @@ body{
 
 .app{
     width: 100%;
-    /* background-color: #f5f5f5; */
+    background-color: #f5f5f5;
 }
 
 /* Header   */
@@ -681,6 +681,7 @@ body{
 
 /* Khung Quảng Cáo */
 .wrap-banner{
+    background-color: #fff;
     width: 100%;
     display: flex;
 }
@@ -1529,17 +1530,23 @@ body{
     background-color: #F0F0F0;
 }
 
-/* Footer  */
-.footer{
-    min-width: 1200px;
-    margin: 20px auto;
+/* Footer  
+1.footer danh muc
+2.footer end
+3.footer 2024
+4.footer last*/
+.wrap-footer{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
+/* 1.footer danh muc  */
 .footer-danhmuc{
-    margin: 3.75rem auto .625rem;
-    padding-bottom: 3.75rem;
+    margin: 60px auto;
+    padding-bottom: 30px;
     width: 1200px;
-    background-color: #ffffff;
 }
 
 .footer-danhmuc-box-tong{
@@ -1586,17 +1593,19 @@ body{
 
 }
 
-
 .footer-danhmuc-khoi-item-contentx a{
     color: rgba(0, 0, 0, .54);
     text-decoration: none;
 }
 
-/* end  */
+/* footer end  */
+.wrap-footer-end{
+    width: 100%;
+    background-color: #FBFBFB;
+}
 
 .footer-end{
     width: 1200px;
-    background-color: #FBFBFB;
     margin: auto;
 }
 
@@ -1704,8 +1713,12 @@ body{
 
 
 /* footer 2024 */
-.footer-2024{
+.wrap-footer-2024{
+    width: 100%;
     background-color: #FBFBFB;
+}
+
+.footer-2024{
     width: 1200px;
     margin: 0px auto;
     display: flex;
@@ -1714,7 +1727,7 @@ body{
     border-top: 1px solid rgba(0, 0, 0, .1);
     color: rgba(0, 0, 0, .54);
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 40px 0px;
 }
 
 .footer-2024-text1{
@@ -1748,14 +1761,15 @@ body{
 
 /* footer-last */
 
-.footer-last{
+.wrap-footer-last{
+    width: 100%;
     background: #E6E6E6;
     color: rgba(0, 0, 0, .65);
     font-size: .75rem;
     padding: 42px 0px 37px;
 }
 
-.footer-last-khoi{
+.footer-last{
     width: 1200px;
     margin: 0px auto;
 }
