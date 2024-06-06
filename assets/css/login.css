@@ -1,0 +1,177 @@
+
+.login-wrap{
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    min-width: 1200px;
+}
+
+.login-header{
+    height: 84px;
+    background-color: #ffffff;
+}
+
+.login-header-box{
+    margin: 0px auto;
+    height: 32px;
+    width: 1200px;
+    display: flex;
+}
+
+.header__logo{
+    height: 100%;
+    padding: 0;
+    width: 80px;
+}
+
+.header__logo-img{
+    height: 42px;
+}
+
+.login-header-box-text{
+    font-size: 24px;
+    color: #222;
+    line-height: 52px;
+    margin-left: 80px;
+}
+
+.login-header-box-text-help{
+    color: #EE4D2D;
+    font-size: 14px;
+    line-height: 52px;
+    margin-left: 737px ;
+}
+
+/* Login content  */
+.login-content{
+    background-color: rgb(238, 77, 45);
+}
+
+
+.login-content-main{
+    background-image: url(https://down-vn.img.susercontent.com/file/sg-11134004-7rd6r-lv8p2o2osz1143);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1040px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.login-content-main-box{
+    width: 400px;
+    height: 482px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .14);
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.login-content-main-box-header{
+    height: 100px;
+}
+
+.login-content-main-box-header-text{
+    padding: 22px 30px;
+    font-size: 20px;
+    color: #222222;
+    line-height: calc(100px - 44px);
+    text-align: center;
+}
+
+.login-content-main-box-content{
+    height: 325px;
+}
+
+.login-content-main-box-content--khoi{
+    padding: 0px 30px 30px;
+}
+
+.login-content-main-box-content--khoi-dnh{
+    margin: 10px 0px;
+}
+
+.login-content-main-box-content--khoi-fb{
+
+}
+
+.login-form-input{
+    border: 1px solid rgba(0, 0, 0, .14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, .02);
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+}
+
+.login-form-input ~ .input-ten-dang-nhap{
+    border: 1px solid #000;
+}
+
+.input-ten-dang-nhap{
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    border: 0px;
+}
+
+.login-dnhap{
+    background-color: #ee4d2d;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .09);
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 100%;    
+    border: 0;
+    height: 40px;
+    border-radius: .125rem;
+    outline: none;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.login-content-main-box-content--khoi-fb-gg{
+    margin: 0 -5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-fb-gg{
+    flex: 1;
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .26);
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+    font-size: .875rem;
+    height: 40px;
+    outline: none;
+    padding: 0 2px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-chuyen-dki{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgba(0, 0, 0, .26);
+    padding-right: 4px;
+    font-size: 1.4rem;
+}
+
+.login-content-main-box-end{
+
+}
+
