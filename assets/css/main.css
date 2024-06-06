@@ -13,7 +13,10 @@ body{
     height: 100%;
 }
 
-/* Mini chat */
+/* ************************* */
+/* Mini chat  */
+/* ************************* */
+
 #shopee-mini-chat{
     position: fixed;
     z-index: 99999;
@@ -52,11 +55,18 @@ body{
     width: 24px;
 
 }
+
+/* ************************* */
 /* App */
+/* ************************* */
+
 .app{
     width: 100%;
+    /* background-color: #f5f5f5; */
 }
+
 /* Header   */
+
 .header{
     position: fixed;
     top: 0;
@@ -658,14 +668,26 @@ body{
 }
 
 /* Container  */
+.wrap-container{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
 .container{
     padding-top: 1px;
     width: 1200px;
-    background-color: #f5f5f5;
     margin: 0 auto;
 }
 
 /* Khung Quảng Cáo */
+.wrap-banner{
+    width: 100%;
+    display: flex;
+}
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+}
 .ads_main{
     display: flex;
     justify-content: center;
@@ -689,7 +711,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    width: 1200px;
+    width: 100%;
     margin: 10px auto 0;
     min-height: 108px;
 }
@@ -770,71 +792,6 @@ body{
     line-height: 61px;
 }
 
-/* Product  */
-
-/* .product{
-    height: 100%;
-    width: 100%;
-}
-
-.product-khoi{
-    height: 100%;
-}
-
-.product-khoi-main{
-
-}
-
-.product-khoi-main-list{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.product-khoi-main-item{
-    padding: 0;
-    margin: 0;
-    width: 118px;
-    max-width: 118px;
-    height: 150px;
-    border: 1px solid #f8f8f8;
-    background-color: #fff
-}
-
-.product-khoi-main-item:hover{
-    background-color: #ffffff;
-    box-shadow: 0px 1px 5px 1px #9999;
-}
-
-.product-khoi-item-link{
-    text-decoration: none;
-    width: 100%;
-}
-
-.product-khoi-item-link-logo{
-    text-align: center;
-}
-
-.product-khoi-item-link-img{
-    width: 87px !important;
-    border-radius: 80%;
-}
-
-.product-khoi-item-link-box-text{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.product-khoi-item-link-text{
-    margin: auto;
-    text-align: center;
-    font-size: 1.4rem;
-} */
-
-
 /* CSS AGAIN  */
 .shopee-header-section__content{
     display: block;
@@ -851,7 +808,6 @@ body{
 }
 
 .image-carousel__item-list{
-    width: 135%;
     transform: translate(0px, 0px);
     height: 302px;
     flex-direction: column;
@@ -1005,7 +961,7 @@ body{
 }
 
 .f_sale-main-product-list{
-    width: 266.667%;
+    /* width: 266.667%; */
     transform: translate(0px, 0px);
     display: flex;
     position: relative;

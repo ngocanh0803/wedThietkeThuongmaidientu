@@ -130,7 +130,7 @@
     --color: #ee4d2d;
 }
 
-*{  
+*{ 
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: inherit;
     padding: 0px;
@@ -144,6 +144,11 @@ ul{
 html{
     font-size: 62.5%;
     line-height: 1.6rem;
+    width: 100%;
+}
+
+body{
+    width: 100%;
 }
 
 a{
