@@ -116,6 +116,13 @@ body {
     border: 0px;
 }
 
+.input-mat-khau {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    border: 0px;
+}
+
 .login-dnhap{
     background-color: rgb(17,193,234);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .09);
