@@ -1,8 +1,3 @@
-/* Muc luc
-1 Header 
-2 Header QR hover
-3 Header notify hover
-4 Fomr đki đnhap */
 
 
 body{
@@ -12,10 +7,6 @@ body{
     width: 100% !important;
     height: 100%;
 }
-
-/* ************************* */
-/* Mini chat  */
-/* ************************* */
 
 #shopee-mini-chat{
     position: fixed;
@@ -56,9 +47,8 @@ body{
 
 }
 
-/* ************************* */
+
 /* App */
-/* ************************* */
 
 .app{
     width: 100%;

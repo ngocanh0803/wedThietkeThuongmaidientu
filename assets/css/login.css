@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(17,193,234);
+}
 
 .login-wrap{
     min-width: 1200px;
@@ -9,52 +12,46 @@
 }
 
 .login-header{
-    height: 84px;
-    background-color: #ffffff;
+    height: 100px;
+    background-color: rgb(17,193,234);
 }
 
 .login-header-box{
     margin: 0px auto;
-    height: 32px;
+    height: auto;
     width: 1200px;
     display: flex;
 }
 
-.header__logo{
-    height: 100%;
-    padding: 0;
-    width: 80px;
+.login-home-button {
+    height: 100px;
+    width: auto;
 }
 
-.header__logo-img{
-    height: 42px;
+.login-home-button img {
+    height: 100px;
+    width: auto;
 }
 
 .login-header-box-text{
-    font-size: 24px;
-    color: #222;
+    font-size: xx-large;
+    color: black;
     line-height: 52px;
-    margin-left: 80px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
-.login-header-box-text-help{
-    color: #EE4D2D;
-    font-size: 14px;
-    line-height: 52px;
-    margin-left: 737px ;
-}
 
 /* Login content  */
 .login-content{
-    background-color: rgb(238, 77, 45);
+    background-color: white;
 }
 
 
 .login-content-main{
-    background-image: url(https://down-vn.img.susercontent.com/file/sg-11134004-7rd6r-lv8p2o2osz1143);
+    background-image: url(/assets/img/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
     width: 1040px;
     height: 600px;
     margin: 0 auto;
@@ -98,9 +95,6 @@
     margin: 10px 0px;
 }
 
-.login-content-main-box-content--khoi-fb{
-
-}
 
 .login-form-input{
     border: 1px solid rgba(0, 0, 0, .14);
@@ -123,7 +117,7 @@
 }
 
 .login-dnhap{
-    background-color: #ee4d2d;
+    background-color: rgb(17,193,234);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .09);
     color: #fff;
     font-size: 1.4rem;
@@ -171,7 +165,4 @@
     font-size: 1.4rem;
 }
 
-.login-content-main-box-end{
-
-}
 
