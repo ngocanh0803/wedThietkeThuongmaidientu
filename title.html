@@ -5,52 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuickCart</title>
     <link rel="stylesheet" href="/assets/css/title.css">
+    <link rel="stylesheet" href="/assets/css/community.css">
+    <script src="assets/js/community.js"></script>
 </head>
 <body>
     <div class="wrapper">
-        <div class="FixedNavigationContainer">
-            <div class="FixedLogoContainer">
-                <a class="FixedLogoContainer" href="title.html">
+        <div class="fixed-navigation-container">
+            <div class="fixed-logo-container">
+                <a href="title.html">
                     <img src="/assets/img/logo2-big.png" alt="">
                 </a>
             </div>
-            <div class="FixedMenuContainer">
-                <nav class="MenuLinks">
+            <div class="fixed-menu-container">
+                <nav class="menu-links">
                     <ul>
-                        <li><a href="#" class="nav-link">Giới thiệu</a></li>
-                        <li><a href="#" class="nav-link">Cộng đồng</a></li>
+                        <li><a href="#IntroductionContent" class="nav-link">Giới thiệu</a></li>
+                        <li><a href="#CommunityChat" class="nav-link">Cộng đồng</a></li>
                         <li><a href="dieukhoannguoidung.html" class="nav-link">Điều khoản người dùng</a></li>
-                        <li><a href="#" class="nav-link">Liên hệ</a></li>
+                        <li><a href="contact.html" class="nav-link">Liên hệ</a></li>
                     </ul>
                 </nav>
             </div> 
         </div>
-        <div class="MainContainer">
-            <div class="MainVideoContainer">
+        <div class="main-container">
+            <div class="main-video-container">
                 <video src="/assets/vid/back_ground_img.mp4" autoplay muted loop></video>
-                <div class="MainVideoHomeSection">
+                <div class="main-video-home-section">
                     <img src="/assets/img/logo-big.png" alt="">
                     <a href="index.html">Mua sắm ngay</a>
                 </div>       
             </div>
-            <div class="MainNewsContainer">
-                <a class="HomeNewsTile" href="#" style="background-image: url(/assets/img/title/slogan.png);">
+            <div class="main-news-container">
+                <a class="home-news-tile" href="#" style="background-image: url(/assets/img/title/slogan.png);">
                     <div class="HomeNewsTileContent">
                     </div>
                 </a>
-                <a class="HomeNewsTile" href="#" style="background-image: url(/assets/img/title/slogan1.png);">
+                <a class="home-news-tile" href="#" style="background-image: url(/assets/img/title/slogan1.png);">
                     <div class="HomeNewsTileContent">
                     </div>
                 </a>
-                <a class="HomeNewsTile" href="#" style="background-image: url(/assets/img/title/slogan2.png);">
+                <a class="home-news-tile" href="#" style="background-image: url(/assets/img/title/slogan2.png);">
                     <div class="HomeNewsTileContent">
                     </div>
                 </a>
             </div>
         </div>
-        <div class="IntroductionContainer">
-            <div class="IntroductionContent">
-                <h1>QuickCart</h1>
+        <div id="IntroductionContent" class="introduction-container">
+            <div class="introduction-content">
+                <h1>Tổng quan về QuickCart</h1>
                 <p>                   
                     Chào mừng đến với QuickCart! <br>
                     
@@ -88,7 +90,7 @@
                     <br>
                     - Hỗ Trợ Qua Email: Liên hệ với chúng tôi tại support@quickcart.com, và chúng tôi sẽ phản hồi nhanh chóng các yêu cầu của bạn.
                     <br>
-                    - Hỗ Trợ Qua Điện Thoại: Gọi cho chúng tôi tại số 1-800-QUICKCART để được trợ giúp trực tiếp.
+                    - Hỗ Trợ Qua Điện Thoại: Gọi cho chúng tôi tại số 911 để được trợ giúp trực tiếp.
                     <br>
                     
                     Chúng tôi cũng cung cấp chính sách hoàn trả và hoàn tiền dễ dàng. Nếu bạn không hoàn toàn hài lòng với mua hàng của mình, bạn có thể trả lại trong vòng 30 ngày để được hoàn tiền hoặc đổi sản phẩm. Để biết thêm chi tiết, hãy truy cập trang Chính Sách Hoàn Trả và Hoàn Tiền của chúng tôi.
@@ -123,9 +125,9 @@
                     <br>
                     - Email: support@quickcart.com
                     <br>
-                    - Điện Thoại: 1-800-QUICKCART
+                    - Điện Thoại: 911
                     <br>
-                    - Địa Chỉ: 123 QuickCart Lane, Shopping City, SC 12345
+                    - Địa Chỉ: Đại học Phenikaa , P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội
                     <br>
                     Theo dõi chúng tôi trên mạng xã hội để cập nhật những tin tức mới nhất và các chương trình khuyến mãi:
                     <br>
@@ -143,9 +145,18 @@
                     </p>
             </div>
         </div>
-        <div class="QuotesCotainer">
-            <img src="/Project_Pictures/quotes.png" alt="">
-        </div>
+        <div class="community-container">
+            <h3>Chat Box Cộng Đồng</h3>
+            <div id="CommunityChat" class="chat-container">
+                <div class="message-list" id="messageList">
+                </div>
+                <div class="input-container">
+                    <input type="text" id="senderInput" placeholder="Tên người gửi...">
+                    <input type="text" id="messageInput" placeholder="Nhập tin nhắn...">
+                    <button id="sendMessageBtn">Gửi</button>
+                </div>
+            </div>
+        </div>   
     </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
 }
 
@@ -10,7 +10,7 @@ body {
     min-height: 100%;
 }
 
-.FixedNavigationContainer {
+.fixed-navigation-container {
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -23,24 +23,24 @@ body {
     z-index: 100;
 }
 
-.FixedLogoContainer {
+.fixed-logo-container {
     height: auto;
     display: flex;
 }
 
-.FixedLogoContainer img {
+.fixed-logo-container img {
     height: 100%;
     margin-left: 30px;
 }
 
-.FixedMenuContainer {
+.fixed-menu-container {
     height: 100%;
     position: relative;
     text-align: right;
     align-content: center;
 }
 
-.MenuLinks ul {
+.menu-links ul {
     display: flex;
     list-style: none;
     margin: 0;
@@ -60,24 +60,24 @@ body {
     color: black;
 }
 
-.MainContainer {
+.main-container {
     width: 100%;
 }
 
-.MainVideoContainer {
+.main-video-container {
     position: relative;
     width: 100%;
     height: auto;
     margin-top: 100px;
 }
 
-.MainVideoContainer video {
+.main-video-container video {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.MainVideoHomeSection {
+.main-video-home-section {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,34 +90,34 @@ body {
     align-items: center;
 }
 
-.MainVideoHomeSection img {
+.main-video-home-section img {
     width: 100%;
 }
 
-.MainVideoHomeSection a {
+.main-video-home-section a {
     border-style: double;
     color: white;
-    font-size: larger;
+    font-size: x-large;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 20px 30px;
     margin: 10px 10px;
-    background-color:black;
+    background-color:rgb(17,193,234);
     transition: background-color 0.3s ease;
 }
 
-.MainVideoHomeSection a:hover {
+.main-video-home-section a:hover {
     background-color:#555;
     color: white;
 }
 
-.MainNewsContainer {
+.main-news-container {
     margin-top: -64px;
     display: grid;
     gap: 16px;
     padding-left: 5vw;
     padding-right: 5vw;
 }
-.HomeNewsTile {
+.home-news-tile {
     aspect-ratio: 16/9;
     background-color: rgba(0,0,0,.5);
     background-position: 50%;
@@ -130,28 +130,28 @@ body {
     text-decoration: none;
 }
 
-.HomeNewsTile:nth-child(1) {
+.home-news-tile:nth-child(1) {
     grid-row: 1 / span 2;
     grid-column: 1 / span 2;
     aspect-ratio: auto;
 }
 
-.HomeNewsTile:nth-child(2) {
+.home-news-tile:nth-child(2) {
     grid-row: 1;
     grid-column: 3;
 }
 
-.HomeNewsTile:nth-child(3) {
+.home-news-tile:nth-child(3) {
     grid-row: 2;
     grid-column: 3;
 }
 
-.HomeNewsTileContent {
+.home-news-tile-content {
     background: linear-gradient(0deg,rgba(0,0,0,.9),transparent);
     padding: 32px 16px 16px;
 }
 
-.IntroductionContainer {
+.introduction-container {
     height: auto !important;
     min-height: 100%;
     display: flex;
@@ -159,31 +159,8 @@ body {
     align-items: center;
 }
 
-.IntroductionContent {
+.introduction-content {
     margin: 10px;
     width: 60%;
     height:auto;
-}
-
-.QuotesCotainer {
-    position: relative;
-    height: auto !important;
-    min-height: 100%;
-}
-
-.QuotesCotainer img {
-    width: 100%;
-    height: auto;
-}
-
-.QuotesCotainer .text-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
 }

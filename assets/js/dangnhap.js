@@ -10,21 +10,22 @@ function login() {
     const password = passwordInput.value.trim(); 
 
     //Form Ten dang nhap
-    const usernameRegex = /^[a-zA-Z0-9_-]{3,16}$/;
+    const usernameRegex = /^[a-zA-Z0-9]{3,15}$/;
 
     if (!usernameRegex.test(username)) {
-        alert("Please enter a valid username (3 to 16 characters, alphanumeric characters, underscores, or hyphens)");
+        alert("Tên đăng nhập không hợp lệ (3 đến 15 ký tự, chỉ chứa chữ cái và số)");
         usernameInput.focus();
         return;
     }
+    
 
     //Kiem tra xem password co trong khong
     if (!password) {
-        alert("Please enter your password");
+        alert("Xin vui lòng nhập mật khẩu");
         passwordInput.focus();
         return;
     }
 
     //Thong bao khi Ten dang nhap + mat khau chinh xac
-    alert("Logging in with username: " + username + " and password: " + password);
+    alert("Đăng nhập với tên đăng nhập: " + username + " và mật khẩu: " + password);
 }
