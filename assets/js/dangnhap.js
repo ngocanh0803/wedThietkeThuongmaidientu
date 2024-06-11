@@ -10,7 +10,8 @@ function login() {
     const password = passwordInput.value.trim(); 
 
     //Form Ten dang nhap
-    const usernameRegex = /^[a-zA-Z0-9]{3,15}$/;
+    const usernameRegex = /^(?:[a-zA-Z0-9]{3,15}|[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$|(^\+(?:[0-9] ?){6,14}[0-9]$)|((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}$/;
+    ;
 
     if (!usernameRegex.test(username)) {
         alert("Tên đăng nhập không hợp lệ (3 đến 15 ký tự, chỉ chứa chữ cái và số)");

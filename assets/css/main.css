@@ -1,3 +1,8 @@
+/* Muc luc
+1 Header 
+2 Header QR hover
+3 Header notify hover
+4 Fomr đki đnhap */
 
 
 body{
@@ -7,6 +12,10 @@ body{
     width: 100% !important;
     height: 100%;
 }
+
+/* ************************* */
+/* Mini chat  */
+/* ************************* */
 
 #shopee-mini-chat{
     position: fixed;
@@ -39,7 +48,7 @@ body{
 }
 
 .shopee-mini-chat-box i{
-    color: #ee4d2d;
+    color: var(--color2);
     height: 24px;
     margin-right: 8px;
     opacity: 1;
@@ -47,8 +56,9 @@ body{
 
 }
 
-
+/* ************************* */
 /* App */
+/* ************************* */
 
 .app{
     width: 100%;
@@ -65,6 +75,7 @@ body{
     padding: 4px;
     height: 120px;
     background-image: linear-gradient(0, #ff6633, #f53e2d);
+    background-image: linear-gradient(0, #1200dc, #0600af);
     z-index: 1;
 }
 
@@ -109,7 +120,7 @@ body{
 .header__navbar-item--gach{
     margin: 0px;
     padding: 0px 9px;
-    border-right: 1px solid #f96c5c;
+    border-right: 1px solid var(--color2);
 }
 
 .header__navbar-item--qr:hover .header__qr{
@@ -321,7 +332,7 @@ body{
 }
 
 .auth-form__swich-btn{
-    color: var(--primary-color);
+    color: var(--primary-color2);
     font-size: 1.6rem;
     cursor: pointer;
 }
@@ -354,7 +365,7 @@ body{
 
 .auth-form-link{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--primary-color2);
 }
 
 .auth-form__controls{
@@ -363,7 +374,7 @@ body{
 }
 
 .btn--primary{
-    background-color: var(--primary-color);
+    background-color: var(--primary-color2);
     color: white;
     margin-left: 15px;
 }
@@ -410,7 +421,7 @@ body{
 
 .auth-form__help-link:nth-child(1){
     border-right: 1px solid rgb(59, 59, 59);
-    color: var(--primary-color);
+    color: var(--primary-color2);
 }
 
 
@@ -437,9 +448,9 @@ body{
     cursor: pointer;
     position: relative;
 }
-
 /* header__cart:hover */
 /* Thong bao hover */
+
 .header__cart:hover .header__cart-notify{
     display: block;
 }
@@ -596,7 +607,7 @@ body{
 .header__search-btn-icon{
     border: none;
     color: var(--white-color);
-    background-color: var(--primary-color);
+    background-color: var(--primary-color2);
     padding: 10px 18px;
     margin-right: 4px;
     border-radius: 3px;  
@@ -606,7 +617,7 @@ body{
 
 
 .header__search-btn-icon:hover{
-    background-color: #fe5643;
+    background-color: var(--color2);
 }
 
 .header__search-option{
@@ -630,7 +641,7 @@ body{
 }
 
 .header__search-option-item i{
-    color: var(--primary-color);
+    color: var(--primary-color2);
     padding: 0px 0px 0px 4px;
 }
 
@@ -940,7 +951,7 @@ body{
 
 .f_sale-main-header-all{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--primary-color2);
     font-size: 1.4rem;
 }
 
@@ -1017,7 +1028,7 @@ body{
     right: 0px;
     background-color: #ffe97a;
     padding-left: 10px;
-    color: var(--primary-color);
+    color: var(--primary-color2);
     font-weight: 500;
     font-size: 1.9rem;
 }
@@ -1302,7 +1313,7 @@ body{
 }
 
 .look-for-top-header-content{
-    color: var(--color);
+    color: var(--color2);
     font-weight: 500;
     font-size: 1.6rem;
 }
@@ -1314,7 +1325,7 @@ body{
 }
 
 .look-for-top-header-them-text{
-    color: var(--color);
+    color: var(--color2);
     font-weight: 500;
     font-size: 1.6rem;
 }
@@ -1398,13 +1409,13 @@ body{
     font-size: 1.6rem;
     line-height: 16px;
     width: 100%;
-    color: var(--color);
+    color: var(--primary-color2);
     font-weight: 500;
 }
 
 .top-header-border-bottom{
     height: 4px;
-    background-color: var(--color);
+    background-color: var(--primary-color2)
 }
 
 .today-content{
@@ -1434,7 +1445,7 @@ body{
 }
 
 .today-content-section-item:hover{
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-color2);
     transform: translateY(-3px);
 }
 
@@ -1564,7 +1575,7 @@ body{
 }
 
 .footer-danhmuc-khoi-item_x-header:hover, .footer-danhmuc-khoi-item-contentx a:hover{
-    color: var(--primary-color);
+    color: var(--primary-color2);
 }
 
 .footer-danhmuc-khoi-item-content{
@@ -1640,7 +1651,7 @@ body{
 }
 
 .footer-end-item a span:hover{
-    color: var(--primary-color);
+    color: var(--primary-color2);
 }
 
 .footer-end-list-cot3{
