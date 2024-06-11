@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function createAccount() {
     const phoneNumberInput = document.querySelector('.input-ten-dang-nhap');
-    const phoneNumber = phoneNumberInput.value.trim(); //Loai bo khoang trong
+    const phoneNumber = phoneNumberInput.value.trim(); //Lay gia tri va bo khoang trang
 
     //Form so dien thoai 
     const phoneRegex = /^\d{10,12}$/;
