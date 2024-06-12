@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function createAccount() {
-    const phoneNumberInput = document.querySelector('.input-ten-dang-nhap');
-    const phoneNumber = phoneNumberInput.value.trim(); //Lay gia tri va bo khoang trang
+    const userNameInput = document.querySelector('.input-ten-dang-nhap');
+    const userName = phoneNumberInput.value.trim(); //Lay gia tri va bo khoang trang
 
     //Form so dien thoai 
-    const phoneRegex = /^\d{10,12}$/;
+    const usernameRegex = /^(?:[a-zA-Z0-9]{3,15}|[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$|(^\+(?:[0-9] ?){6,14}[0-9]$)|((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}$/;;
 
     //Kiem tra so dien thoai
-    if (!phoneRegex.test(phoneNumber)) {
-        alert("Vui lòng nhập đúng số điện thoại của bạn");
+    if (!usernameRegex.test(userName)) {
+        alert("Vui lòng điền tên đăng nhập của bạn");
         phoneNumberInput.focus();
         return;
     }
