@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function createAccount() {
     const userNameInput = document.querySelector('.input-ten-dang-nhap');
-    const userName = phoneNumberInput.value.trim(); //Lay gia tri va bo khoang trang
+    const userName = userNameInput.value.trim(); //Lay gia tri va bo khoang trang
 
     //Form so dien thoai 
     const usernameRegex = /^(?:[a-zA-Z0-9]{3,15}|[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$|(^\+(?:[0-9] ?){6,14}[0-9]$)|((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}$/;;
