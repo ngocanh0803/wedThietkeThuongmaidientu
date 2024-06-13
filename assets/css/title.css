@@ -24,8 +24,9 @@ body {
 }
 
 .fixed-logo-container {
-    height: auto;
+    height: 120px;
     display: flex;
+    margin-top: -15px;
 }
 
 .fixed-logo-container img {
@@ -38,6 +39,7 @@ body {
     position: relative;
     text-align: right;
     align-content: center;
+    margin-right: 60px;
 }
 
 .menu-links ul {
@@ -49,7 +51,7 @@ body {
 }
 
 .nav-link {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
